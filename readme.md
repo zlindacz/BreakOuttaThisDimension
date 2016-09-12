@@ -32,19 +32,19 @@ In addition, this project will include:
 This app will consist of a single screen. The escape key will take the user to a modal menu. From there the player can exit to the loading screen or resume the game. The modal will also have links to my Github and LinkedIn sites.
 
 On the Loading page below, the how-to-play of the game will be displayed in a few simple lines, while player can interact with the sprite underneath to practice moving and jumping
-![loading](../../assets/images/loading.png)
+![loading](lib/docs/wireframes/loading.png)
 
 The modal menu pops up and pauses the game whenever the player hits the escape keys
-![menu](../../assets/images/menu.png)
+![menu](lib/docs/wireframes/menu.png)
 
 There will be three scenes utilizing 2D platform game-like play, feature a few alien enemies that the player must jump over because she is currently over-powered
-![platform](../../assets/images/platform.png)
+![platform](lib/docs/wireframes/platform.png)
 
 A single level of a Breakout like game
-![breakout](../../assets/images/breakout.png)
+![breakout](lib/docs/wireframes/breakout.png)
 
 Once the game concludes, the player will be brought to a closing screen where info about the creator of the game will be displayed, as well as a "To be continued" message
-![contd](../../assets/images/contd.png)
+![contd](lib/docs/wireframes/contd.png)
 
 ### Architecture and Technologies
 
