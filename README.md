@@ -1,7 +1,7 @@
 ## Break Outta This Dimension!
 
 ### Play
-[live link]('https://zlindacz.github.io/BreakOuttaThisDimension/')
+live link: https://zlindacz.github.io/BreakOuttaThisDimension/
 
 ### Background
 
@@ -28,7 +28,7 @@
 ![Landing Page](lib/docs/production_readme/landing.png)
 
 
-![Landing Page](lib/docs/production_readme/first_game.png)
+![Game Page](lib/docs/production_readme/first_game.png)
 
 The toggling of the landing page was achieved using two canvases held together in a wrapper div in the body of the entry file:
 
@@ -115,6 +115,8 @@ for (i=0; i<10; i++) {
 ```
 
 The yellow brick triggers the release of another ball which follows its own trajectory and responds to interactions with the paddle and the walls by changing colors and directions. When the ball collides with a yellow brick with the moreBalls property, as detected by the collisionDetection function, a variable called dropAdditionalBall is switched to true, and the draw function of the game draws an additionalBall and tracks its movements until it is lost.
+
+![Two Balls](lib/docs/production_readme/two_balls.png)
 
 The logic for the other two types are similar, although the grenade or life-orb do not bounce and merely fall from the top of the canvas, at randomly selected x-coordinates.
 
