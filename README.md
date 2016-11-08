@@ -1,7 +1,7 @@
 ## Break Outta This Dimension!
 
 ### Play
-live link: https://zlindacz.github.io/BreakOuttaThisDimension/
+live link: 
 
 ### Background
 
